@@ -11,6 +11,40 @@
 <meta property="og:image" content="cttrains_beige.png" />
 <meta property="og:url" content="www.goldenarrowmaps.com" />
 <style>
+.container {
+  position: relative;
+  width: 300px;
+  height: 50px;
+  overflow: hidden;
+  background-color: #f9f9f9;
+}
+
+.marquee {
+  position: absolute;
+  width: 900%;
+  height: 100%;
+  line-height: 50px;
+  text-align: center;
+  animation: marquee 40s linear infinite;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.block {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  right: 0;
+  background-color: #fff;
+  border-left: 1px solid #000;
+  text-align: center;
+  line-height: 50px;
+}
+</style>
+<style>
 /* Style the body */
 body {
   font-family: Arial;
@@ -98,48 +132,73 @@ div.desc {
 <a><img src="cttrains_beige.png" align='left' width="300" height="300"></a>
 <h1 align='left'>capetowntrains</h1>
 </div> 
-      
+<div class="clearfix"></div>
+<p></p>
+<p></p>      
 <div class="responsive">
       <div class="gallery">
         <a target="_blank" href="southern_line/timetable.html">
-          <img src="metrorail_map.jpg" alt="Retreat/City" width="200" height="300">
+          <img src="metrorail_map.jpg" alt="Southern" width="200" height="300">
         </a>
 
         <div class="desc">
-            <a href="southern_line/timetable.html"  target="_blank" style="background-color: #ffffff;">Southern Suburbs Line</a>
+            <div class="container">
+            <div class="marquee" scrolldelay='1s'>Cape Town &#128646; Woodstock &#128646;Salt River &#128646;Observatory &#128646;Mowbray &#128646;Rosebank &#128646;Rondebosch &#128646; Newlands &#128646;Claremont &#128646;Harfield Rd &#128646;Kenilworth &#128646;Wynberg &#128646;Wittebome &#128646;Plumstead &#128646;Steurhof &#128646;Dieprivier &#128646;Heathfield &#128646;Retreat &#128646;Steenberg &#128646;Lakeside &#128646;False Bay &#128646;Muizenberg &#128646;St James &#128646;Kalk Bay &#128646;Fish Hoek </div>
+	    <div class="block" ><a href="southern_line/timetable.html"  target="_blank" style="background-color: #ffffff;">Southern Line</a>
+	    </div>
+	    </div>
 
         </div>
       </div>
     </div>
-
 <div class="responsive">
       <div class="gallery">
         <a target="_blank" href="northern_line/timetable.html">
-          <img src="metrorail_map.jpg" alt="Retreat/City" width="200" height="300">
+          <img src="metrorail_map.jpg" alt="Northern" width="200" height="300">
         </a>
-
         <div class="desc">
-            <a href="northern_line/timetable.html"  target="_blank" style="background-color: #ffffff;">Northern Suburbs Line</a>
+            <div class="container">
+            <div class="marquee" scrolldelay='1s'>Cape Town&#128646; Woodstock&#128646; Salt River&#128646; Koeberg Rd&#128646; Maitland&#128646; Woltemade&#128646; Mutual&#128646; Thornton&#128646; Goodwood&#128646; Vasco&#128646; Elsies River&#128646; Parow&#128646; Tygerberg&#128646; Bellville&#128646; Kuils River&#128646; Blackheath&#128646; Meltonrose&#128646; Eerste River&#128646; Lynedoch&#128646; Vlottenburg&#128646; Du Toit&#128646; Koelenhof&#128646; Muldersvlei&#128646; Klapmuts&#128646; Paarl&#128646;Huguenot&#128646; Dal Josafat&#128646; Mbekweni&#128646; Wellington</div>
+	    <div class="block" ><a href="northern_line/timetable.html"  target="_blank" style="background-color: #ffffff;">Northern Line</a>
+	    </div>
+	    </div>
 
         </div>
       </div>
     </div>
-
-
 <div class="responsive">
       <div class="gallery">
         <a target="_blank" href="cape_flats/timetable.html">
-          <img src="metrorail_map.jpg" alt="Retreat/City" width="200" height="300">
+          <img src="metrorail_map.jpg" alt="Cape Flats" width="200" height="300">
         </a>
 
         <div class="desc">
-            <a href="cape_flats/timetable.html"  target="_blank" style="background-color: #ffffff;">Cape Flats Line</a>
+            <div class="container">
+            <div class="marquee" scrolldelay='1s'>Cape Town&#128646; Woodstock&#128646; Salt River&#128646; Koeberg Rd&#128646; Maitland&#128646; Ndabeni&#128646; Pinelands&#128646; Hazendal&#128646; Athlone&#128646; Crawford&#128646; Lansdowne&#128646; Wetton&#128646; Ottery&#128646; Southfield&#128646; Heathfield&#128646; Retreat </div>
+	    <div class="block" ><a href="cape_flats/timetable.html"  target="_blank" style="background-color: #ffffff;">Cape Flats Line</a>
+	    </div>
+	    </div>
 
         </div>
       </div>
     </div>
-
    
+<div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="monte_vista/timetable.html">
+          <img src="metrorail_map.jpg" alt="Monte Vista" width="200" height="300">
+        </a>
+
+        <div class="desc">
+            <div class="container">
+            <div class="marquee" scrolldelay='1s'>Cape Town&#128646; Esplanade&#128646; Ysterplaat&#128646; Century City&#128646; Monte Vista&#128646; De Grendel&#128646; Avondale&#128646; Oostersee&#128646; Bellville  </div>
+	    <div class="block" ><a href="monte_vista/timetable.html"  target="_blank" style="background-color: #ffffff;">Monte Vista</a>
+	    </div>
+	    </div>
+
+        </div>
+      </div>
+    </div>
     
 <div class="clearfix"></div>
 
